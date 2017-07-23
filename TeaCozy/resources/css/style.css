@@ -1,0 +1,161 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: Black;
+  margin: 0px;
+  opacity: 0.9;
+}
+
+/* Header part */
+header {
+  height: 69px;
+  border-bottom: 1px solid Seashell;
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 10px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.nav {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+.nav a {
+  color: Seashell;
+}
+
+/* Content part */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 69px;
+}
+
+/* Mission section */
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  height: 700px;
+}
+
+h2,
+h4 {
+  width: 100%;
+  background-color: Black;
+  margin: 0px;
+  padding: 10px;
+}
+
+/* Featured section */
+.featured {
+  width: 1000px;
+  display: flex;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+  top: 70px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-box h4 {
+  margin: 5px;
+  padding: 0px;
+}
+
+.tea-box img {
+  width: 300px;
+  height: 200px;
+  margin: 15px 16px 5px 16px;
+}
+
+/* Location section */
+.location {
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 1200px;
+  min-height: 500px;
+  position: relative;
+  top: 140px;
+}
+
+.loc-header {
+  margin: 50px auto 15px auto;
+  padding: 0px;
+}
+
+.loc-header h2 {
+  background: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.loc-boxes {
+  display: flex;
+}
+
+.loc-box {
+  background-color: black;
+  width: 300px;
+  height: 280px;
+  margin: 0px 20px;
+  opacity: 0.9;
+}
+
+.loc-box h4 {
+  padding: 5px 0px 35px 0px;
+}
+
+/* Contact section */
+.contact {
+  height: 200px;
+  position: relative;
+  top: 140px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-top: 0px;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  top: 220px;
+  margin-left: 20px;
+}
